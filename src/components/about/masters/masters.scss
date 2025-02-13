@@ -1,0 +1,20 @@
+.about__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 7rem;
+}
+.about__img {
+    width: 320px;
+    justify-self: center;
+}
+.about__title {
+    margin-bottom: var(--mb-1);
+    text-align: left !important;
+}
+.about__description {
+    font-size: 1.17rem;
+    margin-bottom: var(--mb-2);
+    line-height: 1.4;
+}
+.about__subtitle {
+    padding-bottom: 0.5rem;
+}
