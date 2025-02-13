@@ -215,12 +215,12 @@
         justify-content: center;
    }
     .footer__container {
-        grid-template-columns: 1fr;
-        row-gap: 2rem;
-        justify-items: start;
+        grid-template-columns: 1fr !important;
+        row-gap: 2rem !important;
+        justify-items: start !important;
    }
     .footer__copy {
-        margin-top: 4.5rem;
+        margin-top: 4.5rem !important;
    }
 }
 @media screen and (max-width: 576px) {
@@ -255,15 +255,15 @@
         padding: 1.25rem 1.4rem;
    }
     .blog__post {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         row-gap: 0.8rem;
    }
     .contact__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         row-gap: 2rem;
    }
     .details__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
    }
     .advantages__container {
         grid-template-columns: 1fr !important;
@@ -296,7 +296,7 @@
         border-radius: 8px;
    }
     .map {
-        width: 100%;
+        width: 100% !important;
    }
     .deco-1 {
         opacity: 0.4;
