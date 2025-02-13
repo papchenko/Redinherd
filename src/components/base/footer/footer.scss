@@ -3,19 +3,14 @@
     overflow: hidden;
 }
 .footer__container {
-    grid-template-columns: repeat(4, 1fr) !important;
-    justify-items: center !important;
-    column-gap: 1rem !important;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    column-gap: 1rem;
 }
-// .footer__logo img {
-    //     width: 64px;
-    //     height: 64px;
-    // }
-    .footer__logo {
-        font-style: italic;
-        font-size: var(--h2-font-size);
-        opacity: 0.3;
-    }
+.footer__logo img {
+    width: 64px;
+    height: 64px;
+}
 .footer__logo-icon {
     font-size: 1rem;
 }
