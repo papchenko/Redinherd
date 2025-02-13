@@ -1,0 +1,165 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.home .intro {
+    text-align: center;
+}
+.home .intro img {
+    height: 150px;
+    object-fit: contain;
+}
+.home .intro__title {
+    font-size: var(--biggest-font-size);
+    padding-bottom: 1rem;
+    font-weight: var(--font-bold);
+}
+.home .intro__text {
+    color: var(--first-color);
+    opacity: 0.8;
+    padding-bottom: 1rem;
+}
+.home .intro .social-icons {
+    margin-bottom: 8rem;
+}
+.home .intro .social-icons li {
+    display: inline-block;
+}
+.home .intro .social-icons li:not(:last-child) {
+    margin-right: var(--m-1-5);
+}
+.home .intro .social-icons a {
+    font-size: var(--h2-font-size);
+    padding: 0 0.6rem;
+}
+.scroll-down {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 100%;
+}
+.mouse-wrapper {
+    font-size: var(--small-font-size);
+    display: block;
+    margin: auto;
+    max-width: 100px;
+    text-align: center;
+}
+.mouse {
+    border: 2px solid var(--text-color);
+    display: block;
+    width: 1.25rem;
+    height: 1.75rem;
+    margin: auto;
+    margin-top: 0.75rem;
+    border-radius: 1rem;
+    position: relative;
+}
+.mouse .wheel {
+    background-color: var(--text-color);
+    border-radius: 50%;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 40%;
+    display: block;
+    animation: ani-mouse 2s linear infinite;
+}
+@keyframes ani-mouse {
+    0% {
+        top: 29%;
+   }
+    15% {
+        top: 50%;
+   }
+    50% {
+        top: 50%;
+   }
+    100% {
+        top: 29%;
+   }
+}
+.deco-1 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 12%;
+    left: 5%;
+    background-image: url('./../public/images/deco/pirch1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 240px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-2 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: -12%;
+    right: 10%;
+    background-image: url('./../public/images/deco/pirch3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 230px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-3 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 49%;
+    right: 20%;
+    background-image: url('./../public/images/deco/pirch2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-4 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 19%;
+    left: 3%;
+    background-image: url('./../public/images/deco/pirch4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 280px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-5 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 9%;
+    right: 3%;
+    background-image: url('./../public/images/deco/pirch5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 230px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-6 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 2%;
+    left: 3%;
+    background-image: url('./../public/images/deco/pirch6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    opacity: 0.05;
+    z-index: -1;
+}
