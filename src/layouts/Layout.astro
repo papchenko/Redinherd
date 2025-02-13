@@ -1,6 +1,7 @@
 ---
-import Header from '@components/base/header.astro';
-import Footer from '@components/base/footer.astro';
+import Header from '@components/base/header/header.astro';
+import Footer from '@components/base/footer/footer.astro';
+import Login from '@components/base/login/login.astro';
 import './main.scss';
 
 interface Props {
@@ -24,6 +25,7 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<Header />
+		<Login />
 		<slot />
 		<Footer />
 		<script src="./../js/main.js"></script>

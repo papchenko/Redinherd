@@ -1,0 +1,54 @@
+.advantages__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    padding-top: 1rem;
+}
+
+.advantages__card-number {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-1-5);
+    transition: 0.3s;
+}
+.advantages__card-title {
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+.advantages__card-description {
+    font-size: var(--small-font-size);
+}
+.advantages__card-description a {
+    font-size: var(--normal-font-size);
+    color: var(--first-color);
+}
+.timeline {
+    background-color: var(--container-color);
+    padding: 1.9rem 0.95rem;
+    border-radius: 1.2rem;
+    width: 100%;
+    position: relative;
+}
+.timeline .timeline-item {
+    position: relative;
+    padding-left: 2.5rem;
+    padding-bottom: 1.9rem;
+}
+.timeline .timeline-item:last-child {
+    padding-bottom: 0;
+}
+.timeline .timeline-icon {
+    position: absolute;
+    left: -0.25rem;
+    top: 0;
+    font-size: var(--h2-font-size);
+    background-color: var(--text-white);
+    color: var(--first-color);
+}
+.timeline .timeline-title {
+    margin: 0.15rem 0;
+    font-size: var(--h2-font-size);
+}
