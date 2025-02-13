@@ -237,19 +237,19 @@
         width: 100%;
    }
     .shop__container {
-        grid-template-columns: 0.9fr;
+        grid-template-columns: 0.9fr !important;
    }
     .shop__phone {
         /* padding: 1rem !important; */
         padding: 1rem !important;
-        margin: 0 3px 0px 0px;
+        margin: 0 3px 0px 0px !important;
    }
     .shop__button {
         padding: 1rem !important;
         margin: 0 0px 0px 0px;
    }
     .shop__items {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
    }
     .sidebar {
         padding: 1.25rem 1.4rem;

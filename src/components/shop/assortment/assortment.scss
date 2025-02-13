@@ -1,0 +1,113 @@
+.shop__container {
+    grid-template-columns: 1fr 3.6fr;
+    column-gap: 1.8rem;
+}
+.shop__items {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.shop__content {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 2rem 0 0;
+    border-radius: 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+.shop__content:hover .shop__img {
+    transform: translateY(-0.5rem) !important;
+}
+.shop__content:hover .shop__button {
+    right: 0 !important;
+}
+/* .shop__content:hover .shop__phone {
+    } */
+   .shop__content:hover .shop__phone {
+    /* right: 3rem !important; */
+    right: 0 !important;
+}
+.shop__img {
+    width: 150px;
+    margin-bottom: var(--mb-1);
+    transition: 0.3s;
+    padding-top: 1.2rem;
+    position: relative;
+}
+.shop__tag {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    background-color: var(--first-color);
+    color: #fff;
+    font-size: var(--small-font-size);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+.shop__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+.shop__subtitle {
+    display: block;
+    margin-bottom: var(--mb-1);
+    max-width: 200px;
+    margin: 0 auto;
+}
+.new__all {
+    padding-bottom: 1rem;
+}
+.shop__categ {
+    font-size: 1.25rem;
+    padding-bottom: 1.2rem;
+}
+.shop__discounts {
+    color: var(--first-color);
+    font-size: var(--smaller-font-size);
+    text-decoration: line-through;
+    font-weight: var(--font-medium);
+}
+.shop__button {
+    display: inline-flex !important;
+    padding: 0.5rem !important;
+    border-radius: 0.25rem 0.25rem 0.75rem 0.25rem !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    right: -5rem !important;
+}
+.shop__phone {
+    display: inline-flex !important;
+    padding: 0.5rem !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    right: -5rem !important;
+}
+.shop__icon {
+    font-size: 1.25rem;
+}
+.sidebar {
+    padding: 1.8rem;
+    background-color: var(--container-color);
+    border-radius: 1rem;
+}
+.filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-0-5);
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+}
+.filter__title {
+    font-size: var(--h3-font-size);
+    text-transform: uppercase;
+}
+.filter__subtitle {
+    margin: 1.25rem 0 var(--mb-0-5);
+    font-size: var(--normal-font-size);
+}
+.filter p {
+    flex: 1;
+}
+.filter input {
+    margin-right: var(--mb-0-75);
+    cursor: pointer;
+}
