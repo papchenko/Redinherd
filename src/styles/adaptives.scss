@@ -225,7 +225,7 @@
 }
 @media screen and (max-width: 576px) {
     .steps__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
    }
     .steps__bg {
         padding: 3rem 2rem 2rem;
@@ -266,19 +266,19 @@
         grid-template-columns: 1fr;
    }
     .advantages__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
    }
     .timeline {
-        border-radius: 0;
-        padding: 0.8rem 0.95rem;
+        border-radius: 0 !important;
+        padding: 0.8rem 0.95rem !important;
    }
     .timeline-1 {
-        border-top-left-radius: 1.2rem;
-        border-top-right-radius: 1.2rem;
+        border-top-left-radius: 1.2rem !important;
+        border-top-right-radius: 1.2rem !important;
    }
     .timeline-2 {
-        border-bottom-left-radius: 1.2rem;
-        border-bottom-right-radius: 1.2rem;
+        border-bottom-left-radius: 1.2rem !important;
+        border-bottom-right-radius: 1.2rem !important;
    }
     .pagination {
         column-gap: 0.4rem;

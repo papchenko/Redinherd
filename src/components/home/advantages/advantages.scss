@@ -34,8 +34,9 @@
 }
 .timeline .timeline-item {
     position: relative;
-    padding-left: 2.5rem;
-    padding-bottom: 1.9rem;
+    // padding-left: 2.5rem;
+    // padding-bottom: 1.9rem;
+    padding-bottom: 0.7rem;
 }
 .timeline .timeline-item:last-child {
     padding-bottom: 0;
@@ -47,8 +48,9 @@
     font-size: var(--h2-font-size);
     background-color: var(--text-white);
     color: var(--first-color);
+    display: none;
 }
 .timeline .timeline-title {
-    margin: 0.15rem 0;
+    // margin: 0.15rem 0;
     font-size: var(--h2-font-size);
 }
