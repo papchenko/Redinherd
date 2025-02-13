@@ -148,7 +148,10 @@
    }
     .login__toggle, .nav__toggle, .nav__close {
         display: block;
-        font-size: 1.8rem !important;
+        font-size: 2rem !important;
+   }
+   .login__toggle {
+    display: none;
    }
     .show-menu {
         right: 0;
@@ -170,7 +173,7 @@
    .deco-1 {
     display: none;
    }
-   .deco-2 {
+   .deco-3 {
     // display: none;
    }
     .swiper-pagination {
@@ -203,7 +206,7 @@
         grid-template-columns: 1fr;
    }
     .about__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         row-gap: 2rem;
    }
     .details__container {
