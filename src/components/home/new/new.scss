@@ -65,3 +65,27 @@
 .new__icon {
     font-size: 1.25rem;
 }
+
+.swiper-pagination {
+    position: initial !important;
+    margin-top: 1.5rem !important;
+}
+.swiper-pagination-bullet {
+    width: 0.5rem !important;
+    height: 0.475rem !important;
+    opacity: 1 !important;
+    background-color: #ffffff28;
+}
+.swiper-pagination-horizontal {
+    &.swiper-pagination-bullets {
+        .swiper-pagination-bullet {
+            margin: 0 0.2rem !important;
+        }
+    }
+}
+.swiper-pagination-bullet-active {
+    background-color: var(--first-color) !important;
+    width: 1.6rem !important;
+    height: 0.475rem !important;
+    border-radius: 0.5rem !important;
+}
